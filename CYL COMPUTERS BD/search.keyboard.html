@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/INDEX_LOGO.png">
+  <title>CYL COMPUTERS BD | Keyboard</title>
+  <link rel="stylesheet" href="search.keyboard.css">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=SolaimanLipi&display=swap" rel="stylesheet">
+  <script defer src="search.keyboard.js"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="menu-icon" id="menuToggle">
+      <i class="bx bx-menu"></i>
+    </div>
+    <a href="index.html">
+      <img src="images/INDEX_LOGO.png" title="CYL COMPUTERS BD Logo" class="main-logo">
+      <div class="logo">
+        <h4 class="logo-txt" title="Home">CYL COMPUTERS BD</h4>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#"> <i class="bx bx-home"></i>Home</a></li>
+      <li><a href="#"> <i class="fas fa-percentage"></i>Offers</a></li>
+      <li><a href="#"> <i class="bx bx-desktop"></i>PC Builder</a></li>
+      <li><a href="#"> <i class="bx bx-phone"></i>Contact</a></li>
+      <li class="user-icon mobile-view">
+        <a href="#">
+          <i class="bx bx-user-circle"></i>
+          <span>Add Account</span>
+        </a>
+      </li>
+      <li><a href="javascript:void(0);" class="close-btn" id="closeSidebar"><i class='bx bx-x'></i></a></li>
+    </ul>
+    <div class="search-icon" id="searchToggle">
+      <i class="bx bx-search"></i>
+    </div>
+  </nav>
+
+  <div class="content-wrapper">
+    <div id="searchBar" class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search..." oninput="searchResults()">
+      <div id="results" class="search-results"></div>
+    </div>
+
+    <div class="keyboard-brand-list">
+      <h3 class="brand-txt">Featured Brands</h3>
+      <button onclick="scrollToPosition(500)">Razer</button>
+      <button onclick="scrollToPosition(1000)">T-Wolf</button>
+      <button onclick="scrollToPosition(1500)">A4Tech</button>
+      <button onclick="scrollToPosition(2000)">Logitech</button>
+      <button onclick="scrollToPosition(2500)">Havit</button>
+      <button onclick="scrollToPosition(3000)">NZXT</button>
+      <button onclick="scrollToPosition(3500)">MSI</button>
+    </div>
+
+  <div class="scrolling-container">
+    <div class="scrolling-text" id="scrollText">আমাদের ওয়েবসাইটটি ২৪/৭ খোলা থাকে !</div>
+  </div>
+
+  <ul id="contextMenu" class="context-menu">
+   <li id="homeOption"><i class='bx bx-home'></i> Home</li>
+  </ul>
+
+  <a href="#">
+    <div class="container">
+      <div class="image">
+        <img src="Keyboard_images/t15.png" title="Image">
+      </div>
+      <div class="title">
+        <h3>T-Wolf T15 104 Keys wired keyboard</h3>
+      </div>
+      <div class="keyboard-price">
+        <p class="price-txt">BDT 450 ৳</p>
+      </div>
+      <div class="buy-button">
+      <a href="#"><button class="go-page">Buy Now <i class='bx bxs-shopping-bags'></i></button></a>
+      </div>
+    </div>
+  </a>
+
+  <a href="#">
+    <div class="container">
+      <div class="image">
+        <img src="Keyboard_images/fantech_go_k211.png" title="Image">
+      </div>
+      <div class="title">
+        <h3>Fantech GO K211 Bangla Keyboard</h3>
+      </div>
+      <div class="keyboard-price">
+        <p class="price-txt">BDT 500 ৳</p>
+      </div>
+      <div class="buy-button">
+      <a href="#"><button class="go-page">Buy Now <i class='bx bxs-shopping-bags'></i></button></a>
+      </div>
+    </div>
+  </a>
+
+  <a href="#">
+    <div class="container">
+      <div class="image">
+        <img src="Keyboard_images/t15.png" title="Image">
+      </div>
+      <div class="title">
+        <h3>Havit KB378 USB Exquisite Keyboard with Bangla</h3>
+      </div>
+      <div class="keyboard-price">
+        <p class="price-txt">BDT 450 ৳</p>
+      </div>
+      <div class="buy-button">
+      <a href="#"><button class="go-page">Buy Now <i class='bx bxs-shopping-bags'></i></button></a>
+      </div>
+    </div>
+  </a>
+
+  <a href="#">
+    <div class="container">
+      <div class="image">
+        <img src="Keyboard_images/havit_kb378.png" title="Image">
+      </div>
+      <div class="title">
+        <h3>Havit KB378 USB Exquisite Keyboard with Bangla</h3>
+      </div>
+      <div class="keyboard-price">
+        <p class="price-txt">BDT 450 ৳</p>
+      </div>
+      <div class="buy-button">
+      <a href="#"><button class="go-page">Buy Now <i class='bx bxs-shopping-bags'></i></button></a>
+      </div>
+    </div>
+  </a>
+  
+  <a href="#">
+    <div class="container">
+      <div class="image">
+        <img src="Keyboard_images/t15.png" title="Image">
+      </div>
+      <div class="title">
+        <h3>T-Wolf T15 104 Keys wired keyboard</h3>
+      </div>
+      <div class="keyboard-price">
+        <p class="price-txt">BDT 450 ৳</p>
+      </div>
+      <div class="buy-button">
+      <a href="#"><button class="go-page">Buy Now <i class='bx bxs-shopping-bags'></i></button></a>
+      </div>
+    </div>
+  </a>
+
+</body>
+</html>
